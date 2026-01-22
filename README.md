@@ -25,5 +25,9 @@ A medida que avanzo en el análisis, documento métricas clave basadas en criter
 * `/sql`: Consultas (queries) utilizadas en BigQuery para el filtrado y agrupación.
 * `consultas_dia2.sql`: Ejercicios de filtrado con la cláusula `WHERE`.
 
+##   Habilidades Técnicas Aplicadas
+*Limpieza de Datos: Uso de TRIM y UPPER para estandarizar categorías alimenticias.
+*Integridad de Datos: Aplicación de COALESCE para el tratamiento de valores nulos, asegurando que los promedios de nutrientes sean exactos.
+*Eficiencia en Recursos: Implementación de flujos de trabajo en BigQuery para optimizar el procesamiento en equipos de bajos recursos (4GB RAM).
 ---
 *Si te interesa el análisis de datos aplicado a la salud o querés colaborar, ¡no dudes en contactarme!*
