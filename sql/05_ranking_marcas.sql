@@ -1,5 +1,11 @@
---Análisis de concentración de riesgo por marca.
---Auditoría de Marcas con Mayor Riesgo Nutricional
+-- Objetivo:
+--   Generar un ranking de marcas según la cantidad de productos
+--   clasificados como Alto Riesgo nutricional.
+
+-- Valor de negocio:
+--   Permite análisis competitivo, evaluación de proveedores
+--   y soporte para estrategias de reformulación o compliance.
+
 SELECT 
     marca, 
     COUNT(*) as total_productos_rojos
