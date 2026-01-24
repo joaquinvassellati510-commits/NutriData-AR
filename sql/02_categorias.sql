@@ -1,5 +1,12 @@
---Misión 1: ¿Cuántos productos tengo por categoría?
---Esto te sirve para saber si tu muestra de datos está equilibrada.
+Objetivo:
+--   Generar métricas base del mercado alimentario:
+--   - Promedio de azúcar por categoría
+--   - Promedio de sodio por categoría
+--   - Conteo de productos por tipo
+
+-- Valor de negocio:
+--   Permite identificar categorías críticas y establecer KPIs
+--   para dashboards ejecutivos y control de calidad.
 
 SELECT categoria, COUNT(*) as total_productos
 FROM `nutricion-ar.datos_nutricionales.alimentos`
