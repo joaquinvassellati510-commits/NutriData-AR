@@ -1,12 +1,11 @@
 -- Objetivo:
---   Analizar la distribución del nivel de riesgo nutricional
---   por categoría de producto para detectar segmentos críticos
---   del mercado alimentario.
+--   Demostrar el uso de CTEs para limpiar y normalizar datos
+--   (tratamiento de nulos, estandarización de texto)
+--   sin modificar la fuente original.
 --
 -- Valor de negocio:
---   Apoya la toma de decisiones en salud pública, priorización
---   de auditorías y estrategias de control de calidad.
-
+--   Mejora la calidad de datos para análisis posteriores
+--   y reduce errores en métricas y reportes.
 
 WITH datos_sucios AS (
   SELECT 1 as id, ' Galletitas de Avena' as nombre, NULL as marca, ' SNACKS ' as categoria, 450 as kcal
