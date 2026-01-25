@@ -6,6 +6,10 @@
 --   Permite análisis competitivo, evaluación de proveedores
 --   y soporte para estrategias de reformulación o compliance.
 
+-- Definición:
+--   Producto "Alto Riesgo" = sodio > 400 mg OR azúcar > 15 g por 100 g
+
+
 SELECT 
     marca, 
     COUNT(*) as total_productos_rojos
